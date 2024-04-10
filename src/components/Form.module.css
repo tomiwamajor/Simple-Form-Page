@@ -1,0 +1,82 @@
+form {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.btn {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 12px;
+  background: #814226;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.checked {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.checker {
+  display: flex;
+  gap: 10px;
+}
+
+.formStyle {
+  display: flex;
+  height: 28px;
+  padding: 11px 17px;
+  align-items: center;
+  gap: 28px;
+  flex-shrink: 0;
+  color: #121212;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  border-radius: 10px;
+  background-color: #78351812;
+  color: #121212;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.6;
+}
+
+@media only screen and (max-width: 678px) {
+  .form {
+    width: 550px;
+  }
+}
+
+@media only screen and (max-width: 578px) {
+  .form {
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 478px) {
+  .form {
+    width: 350px;
+  }
+}
